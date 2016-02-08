@@ -43,4 +43,7 @@ public class Song implements Serializable {
 		this.title = title;
 	}
    
+	public String toString() {
+		return super.toString();
+	}
 }
