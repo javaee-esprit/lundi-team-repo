@@ -24,7 +24,7 @@ public class Song implements Serializable {
 	
 	public Song(Integer id, String title) {
 		this.id = id;
-		this.title = "One Love";
+		this.title = "No Woman no Cry!";
 	}
 
 
