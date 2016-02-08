@@ -14,7 +14,7 @@ import javax.persistence.*;
 public class Song implements Serializable {
 
 	   
-	@Id
+	@Id @GeneratedValue 
 	private Integer id;
 	private String title;
 
@@ -23,7 +23,6 @@ public class Song implements Serializable {
 	
 	
 	public Song(Integer id, String title) {
-		super();
 		this.id = id;
 		this.title = "One Love";
 	}
